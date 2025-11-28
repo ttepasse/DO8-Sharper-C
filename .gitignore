@@ -4,5 +4,7 @@
 [Rr]elease/
 [Rr]eleases/
 
-*.nuget.props
-*.nuget.targets
+*.nuget.g.props
+*.nuget.g.targets
+project.nuget.cache
+*.nuget.dgspec.json
