@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-29 - 1 - Strings/2025-11-29 - 1 - Strings.csproj",
-      "projectName": "2025-11-29 - 1 - Strings",
-      "projectPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-29 - 1 - Strings/2025-11-29 - 1 - Strings.csproj",
+      "projectUniqueName": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 1 - CountCharInString/2025-11-28 - 1 - CountCharInString.csproj",
+      "projectName": "2025-11-28 - 1 - CountCharInString",
+      "projectPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 1 - CountCharInString/2025-11-28 - 1 - CountCharInString.csproj",
       "packagesPath": "/home/cl902/.nuget/packages/",
-      "outputPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-29 - 1 - Strings/obj/",
+      "outputPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 1 - CountCharInString/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cl902/.nuget/NuGet/NuGet.Config"
