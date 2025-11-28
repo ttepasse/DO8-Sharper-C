@@ -8,17 +8,17 @@
 
 bool ContainsDuplicateChars(string strg)
 {
-    string letters = "";
+    string seenLetters = "";
 
     foreach (char c in strg)
     {
         char ch = Char.ToLower(c);
-        if (letters.Contains(ch))
+        if (seenLetters.Contains(ch))
         {
             return true;
         } else
         {
-            letters += ch;
+            seenLetters += ch;
         }
     }
     return false;
