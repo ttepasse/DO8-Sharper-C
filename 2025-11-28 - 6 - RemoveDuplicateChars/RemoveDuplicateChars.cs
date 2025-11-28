@@ -11,14 +11,14 @@ using System.Text;
 
 string RemoveDuplicateChars(string strg)
 {
-    string seenLetters = "";    // String, wegen der Contains-Methode
+    List<string> seenLetters = [];
     StringBuilder sb = new StringBuilder();
 
     foreach (char c in strg)
     {
-        string s = c.ToString().ToLower();
-        if (!seenLetters.Contains(s)) {
-            seenLetters += s;
+        string lowercaseChar = c.ToString().ToLower();
+        if (!seenLetters.Contains(lowercaseChar)) {
+            seenLetters.Add(lowercaseChar);
             sb.Append(c);
         }
     }
