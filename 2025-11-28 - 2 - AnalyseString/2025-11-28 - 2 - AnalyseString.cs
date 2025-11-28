@@ -6,10 +6,6 @@
 
 void AnalyseString(string strg)
 {
-    // string consonants = ;
-    // string umlauts = "äöüß";
-    // string digits = "0123456789";
-
     uint vocals = 0;
     uint consonants = 0;
     uint umlauts = 0;
