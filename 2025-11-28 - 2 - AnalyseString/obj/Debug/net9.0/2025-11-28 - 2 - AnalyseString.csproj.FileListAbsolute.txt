@@ -12,3 +12,4 @@
 /home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 2 - AnalyseString/obj/Debug/net9.0/2025-11-28 - 2 - AnalyseString.pdb
 /home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 2 - AnalyseString/obj/Debug/net9.0/2025-11-28 - 2 - AnalyseString.genruntimeconfig.cache
 /home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 2 - AnalyseString/obj/Debug/net9.0/ref/2025-11-28 - 2 - AnalyseString.dll
+/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 2 - AnalyseString/obj/Debug/net9.0/2025-11-28 - 2 - AnalyseString.sourcelink.json

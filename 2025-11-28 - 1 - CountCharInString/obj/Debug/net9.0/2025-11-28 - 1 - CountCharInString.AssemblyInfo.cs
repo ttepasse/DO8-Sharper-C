@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2025-11-28 - 1 - CountCharInString")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fefcefcc3aefdc9a5d6d67b0bccc347a80eb98b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7de69858e8abc5b6b1fc2d272f32c94b7d8cbae4")]
 [assembly: System.Reflection.AssemblyProductAttribute("2025-11-28 - 1 - CountCharInString")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2025-11-28 - 1 - CountCharInString")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
