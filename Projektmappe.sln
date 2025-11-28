@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 4 - IsPalindro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 5 - ContainsDuplicateChars", "2025-11-28 - 5 - ContainsDuplicateChars\2025-11-28 - 5 - ContainsDuplicateChars.csproj", "{889F749B-08EF-448B-BF5A-0CF990D96F99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 6 - RemoveDuplicateChars", "2025-11-28 - 6 - RemoveDuplicateChars\2025-11-28 - 6 - RemoveDuplicateChars.csproj", "{B120A5CF-E720-4D67-A28F-73C3056AD5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{889F749B-08EF-448B-BF5A-0CF990D96F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{889F749B-08EF-448B-BF5A-0CF990D96F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{889F749B-08EF-448B-BF5A-0CF990D96F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B120A5CF-E720-4D67-A28F-73C3056AD5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B120A5CF-E720-4D67-A28F-73C3056AD5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B120A5CF-E720-4D67-A28F-73C3056AD5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B120A5CF-E720-4D67-A28F-73C3056AD5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
