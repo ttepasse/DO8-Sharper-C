@@ -6,22 +6,19 @@
 //          ContainsDuplicateChars("Micha")  =>  false
 
 
-using System.Text;
-
 bool ContainsDuplicateChars(string strg)
 {
-    strg = strg.ToLower();
-
     string letters = "";
 
     foreach (char c in strg)
     {
-        if (letters.Contains(c))
+        char ch = Char.ToLower(c);
+        if (letters.Contains(ch))
         {
             return true;
         } else
         {
-            letters += c;
+            letters += ch;
         }
     }
     return false;
