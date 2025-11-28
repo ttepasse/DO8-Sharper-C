@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2025-11-28 - 2 - AnalyseString")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+239b237574f9b8b92a92e4987300f10daa4a4ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f13b39e5f691136ef0c683f35a4c8f515667856c")]
 [assembly: System.Reflection.AssemblyProductAttribute("2025-11-28 - 2 - AnalyseString")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2025-11-28 - 2 - AnalyseString")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
