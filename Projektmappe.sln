@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 7 - Capitalize
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 8 - CapitalizeAfterChars", "2025-11-28 - 8 - CapitalizeAfterChars\2025-11-28 - 8 - CapitalizeAfterChars.csproj", "{A692C2DE-B83B-4A68-85BF-CF91155376A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 1 - Divide-By-Zero-Exception", "2025-12-2 - 1 - Divide-By-Zero-Exception\2025-12-2 - 1 - Divide-By-Zero-Exception.csproj", "{17B684C2-AF93-4E23-9411-C714663529C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 1 - IntegerDivision", "2025-12-2 - 1 - IntegerDivision\2025-12-2 - 1 - IntegerDivision.csproj", "{17B684C2-AF93-4E23-9411-C714663529C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
