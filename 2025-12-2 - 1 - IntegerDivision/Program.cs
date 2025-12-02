@@ -22,7 +22,7 @@ class Program
             dividend = int.Parse(dividend_string);
             divisor = int.Parse(divisor_string);
         }
-        catch (FormatException ex)
+        catch (FormatException)
         {
             throw;
         }
