@@ -17,59 +17,24 @@ namespace _2025_1_2___2___ISBN;
 
 class Program
 {
-    static string ISBN(string? possibleISBN)
+    static string ISBN(string? isbn)
     {
-        if (possibleISBN == null)
+        if (isbn == null)
         {
             throw new ArgumentNullException("Darf nicht null sein");
         }
 
-        if (!possibleISBN.All(Char.IsDigit))
+        if (!isbn.All(Char.IsDigit))
         {
             throw new FormatException("Alle Zeichen müssen Ziffern sein.");
         }
 
-        if (possibleISBN.Length != 13)
+        if (isbn.Length != 13)
         {
             throw new ArgumentOutOfRangeException("Eine ISBN hat 13 Ziffern");
         }
 
-        // string[] ISBNdigits = possibleISBN.Split("");
-
-        StringBuilder sb = new StringBuilder();
-
-        // Ziffern 1, 2, 3
-        sb.Append(possibleISBN[0]);
-        sb.Append(possibleISBN[1]);
-        sb.Append(possibleISBN[2]);
-        
-        // Strich, Ziffer 4, Strich
-        sb.Append("-");
-        sb.Append(possibleISBN[3]);
-        sb.Append("-");
-
-        // Ziffern 5 bis 9
-        sb.Append(possibleISBN[4]);
-        sb.Append(possibleISBN[5]);
-        sb.Append(possibleISBN[6]);
-        sb.Append(possibleISBN[7]);
-        sb.Append(possibleISBN[8]);
-
-        // Strich
-        sb.Append("-");
-
-        // Ziffern 10, 11, 12
-        sb.Append(possibleISBN[9]);
-        sb.Append(possibleISBN[10]);
-        sb.Append(possibleISBN[11]);
-
-        // Strich
-        sb.Append("-");
-
-        // Ziffer 13
-        sb.Append(possibleISBN[12]);
-
-        return sb.ToString();
+        return $"ISBN {isbn[0..3]}-{isbn[3]}-{isbn[4..9]}-{isbn[9..12]}-{isbn[12]}";
     }
 
 
