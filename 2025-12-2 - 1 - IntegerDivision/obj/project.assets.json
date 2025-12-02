@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 1 - Divide-By-Zero-Exception/2025-12-2 - 1 - Divide-By-Zero-Exception.csproj",
-      "projectName": "2025-12-2 - 1 - Divide-By-Zero-Exception",
-      "projectPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 1 - Divide-By-Zero-Exception/2025-12-2 - 1 - Divide-By-Zero-Exception.csproj",
+      "projectUniqueName": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 1 - IntegerDivision/2025-12-2 - 1 - IntegerDivision.csproj",
+      "projectName": "2025-12-2 - 1 - IntegerDivision",
+      "projectPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 1 - IntegerDivision/2025-12-2 - 1 - IntegerDivision.csproj",
       "packagesPath": "/home/cl902/.nuget/packages/",
-      "outputPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 1 - Divide-By-Zero-Exception/obj/",
+      "outputPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 1 - IntegerDivision/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cl902/.nuget/NuGet/NuGet.Config"
