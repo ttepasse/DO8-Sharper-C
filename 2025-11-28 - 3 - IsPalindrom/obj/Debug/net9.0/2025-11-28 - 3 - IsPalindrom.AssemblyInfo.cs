@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2025-11-28 - 3 - IsPalindrom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f13b39e5f691136ef0c683f35a4c8f515667856c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f571f8a665198dfae78f837e5aa51447acc85b51")]
 [assembly: System.Reflection.AssemblyProductAttribute("2025-11-28 - 3 - IsPalindrom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2025-11-28 - 3 - IsPalindrom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
