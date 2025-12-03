@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 2 - ISBN", "202
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 3 - Sichere Eingabe", "2025-12-2 - 3 - Sichere Eingabe\2025-12-2 - 3 - Sichere Eingabe.csproj", "{373E4D38-58ED-4E55-8FDC-F4AC0A70A71E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 1 - Job-Liste", "2025-12-3 - 1 - Job-Liste\2025-12-3 - 1 - Job-Liste.csproj", "{526D2725-BDCE-4034-86C5-590F71A03143}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{373E4D38-58ED-4E55-8FDC-F4AC0A70A71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373E4D38-58ED-4E55-8FDC-F4AC0A70A71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373E4D38-58ED-4E55-8FDC-F4AC0A70A71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526D2725-BDCE-4034-86C5-590F71A03143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526D2725-BDCE-4034-86C5-590F71A03143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526D2725-BDCE-4034-86C5-590F71A03143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526D2725-BDCE-4034-86C5-590F71A03143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
