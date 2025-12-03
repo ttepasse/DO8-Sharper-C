@@ -10,8 +10,6 @@
 //     • Die Methode GetJobDone(), um einen Job zu erledigen. Die Methode gibt den nächsten anstehenden Job auf der Konsole aus, löscht diesen dann aus der Queue und meldet anschließend die Anzahl noch vorhandener Jobs.
 //     • Eine Methode ShowAllJobs(), die alle aktuell gespeicherten Jobs auf der Konsole ausgibt.
 
-using System.Net.WebSockets;
-
 namespace _2025_12_3___1___Job_Liste;
 
 
