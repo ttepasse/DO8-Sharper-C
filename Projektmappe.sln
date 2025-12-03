@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 3 - Sichere Ein
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 1 - Job-Liste", "2025-12-3 - 1 - Job-Liste\2025-12-3 - 1 - Job-Liste.csproj", "{526D2725-BDCE-4034-86C5-590F71A03143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 2 - Hotel", "2025-12-3 2 - Hotel\2025-12-3 2 - Hotel.csproj", "{2A992F8F-115E-4B73-BD40-612B9CDF7DB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 2 - Hotel", "2025-12-3 - 2 - Hotel\2025-12-3 - 2 - Hotel.csproj", "{2A992F8F-115E-4B73-BD40-612B9CDF7DB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
