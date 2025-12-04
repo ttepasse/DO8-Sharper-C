@@ -15,8 +15,11 @@ public class QuestReward(int xp, List<Item> items)
 }
 
 
-public class Journey
+public class Hobbit(string name)
 {
+    public string Name { get; private set; } = name;
+    public readonly Dictionary<string, Item> Inventory = new Dictionary<string, Item>();
+
     public Dictionary<string, QuestReward> buchDerAufgaben { get; } = new Dictionary<string, QuestReward>();
     private Queue<string> _queue = new Queue<string>();
 
@@ -25,26 +28,6 @@ public class Journey
         buchDerAufgaben[description] = qr;
         _queue.Enqueue(description);
     }
-
-    public string? NextTask()
-    {
-        try
-        {
-            return _queue.Dequeue();
-        }
-        catch (InvalidOperationException)
-        {
-            return null;
-        }
-    }
-}
-
-
-public class Hobbit(string name, Journey journey)
-{
-    public string Name { get; private set; } = name;
-    public Journey journey { get; private set; } = journey;
-    public readonly Dictionary<string, Item> Inventory = new Dictionary<string, Item>();
 
     // The Fool of a Took müsste eigentlich negativ sein.
     public int WeisheitsLVL { get; private set; } = 0;
@@ -61,17 +44,19 @@ public class Hobbit(string name, Journey journey)
     public bool AufgabeErledigen()
     {
         QuestReward qr;
-        string? task = journey.NextTask();
+        string task;
 
-        if (task == null)
+        try
         {
-            Console.WriteLine($"{Name} ist am Ziel");
+             task = _queue.Peek();
+        }
+        catch (InvalidOperationException)
+        {
+            Console.WriteLine($"{Name} Aufgabenliste ist leer. Pippin ist am Ende.");
             return false;
         }
-        else
-        {
-            qr = journey.buchDerAufgaben[task];
-        }
+
+        qr = buchDerAufgaben[task];
 
         foreach (Item item in qr.Items)
         {
@@ -81,6 +66,9 @@ public class Hobbit(string name, Journey journey)
                 return false;
             }
         }
+
+        // Jetzt können wir endlich den Task aus der Queue nehmen.
+        _queue.Dequeue();
 
         Console.WriteLine($"{Name} hat die benötigten Items für die Aufgabe \"{task}\" und gewinnt {qr.XP} XP.");
 
@@ -124,28 +112,27 @@ class Program
 
 
 
-        Journey journey = new Journey();
+        Hobbit pippin = new Hobbit("Peregrin Took");
 
-        journey.AddTask("Die Wache für Bergil",
+        pippin.AddTask("Die Wache für Bergil",
             new QuestReward(100, new List<Item> { itemDB["Uniform der Wache von Gondor"],
                                                   itemDB["Lanze der Wache"],
                                                   itemDB["Brot der Stadt"] }
 
         ));
 
-        journey.AddTask("Die Flammen der Hoffnung",
+        pippin.AddTask("Die Flammen der Hoffnung",
             new QuestReward(300, new List<Item> { itemDB["Fackel der Wachen"],
                                                   itemDB["Harz der ewigen Kiefer"] }
         ));
 
-        journey.AddTask("Der Dienst bei Denethor",
+        pippin.AddTask("Der Dienst bei Denethor",
             new QuestReward(250, new List<Item> { itemDB["Wasser aus dem Brunnen des Hofes"],
                                                   itemDB["Trompete der Stadtwache"],
                                                   itemDB["Schwert \"Kurzbeil\""] }
         ));
 
 
-        Hobbit pippin = new Hobbit("Peregrin Took", journey);
 
         // Fehler: Pippin hat noch keine Items
         // pippin.AufgabeErledigen();
@@ -164,7 +151,10 @@ class Program
         pippin.AddItem( new Item("Laserschwert", "In grün"));
         pippin.AufgabeErledigen();
 
-        // (Ja, das ist ein Fehler, weil der Quest wieder in die Queue sollte. Aber das ist mir jetzt egal.)
+        pippin.AddItem(itemDB["Wasser aus dem Brunnen des Hofes"]);
+        pippin.AddItem(itemDB["Trompete der Stadtwache"]);
+        pippin.AddItem(itemDB["Schwert \"Kurzbeil\""]);
+        pippin.AufgabeErledigen();
 
         // Die Queue ist nun leer, und Pippin ist am Ziel.
         pippin.AufgabeErledigen();
