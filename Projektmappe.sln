@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 3 - Baumarkt", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 4 - Kartenspiel", "2025-12-3 - 4 - Kartenspiel\2025-12-3 - 4 - Kartenspiel.csproj", "{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-4 - 1 - Quest Dictionary", "2025-12-4 - 1 - Quest Dictionary\2025-12-4 - 1 - Quest Dictionary.csproj", "{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
