@@ -7,7 +7,7 @@ class Program
     
     // Helfermethode: Konvertiert eine Zeile des Text in einen Tupel von Accountnummer und Liste von Artikeln.
 
-    static (string, List<string>) Line2Tupel(string line)
+    static (string, List<string>) Line2Tuple(string line)
     {
         string[] lineArray = line.Split("; ");
         string accountNumber = lineArray.First();
@@ -28,7 +28,7 @@ class Program
 
         foreach (string line in text.Split("\n"))
         {
-            (string accountNumber, List<string> articles) = Line2Tupel(line);
+            (string accountNumber, List<string> articles) = Line2Tuple(line);
             result[accountNumber] = articles;
         }
 
