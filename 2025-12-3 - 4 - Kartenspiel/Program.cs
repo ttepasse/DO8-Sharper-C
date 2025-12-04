@@ -27,8 +27,8 @@ public static class ExtensionMethods
         _ => throw new NotImplementedException()
     };
 
-    // Stack::Push(int i, otherStack)
-    // Poppt i Karten von otherStack und Pusht diese auf sich selbst.
+    // Stack::Push(int count, otherStack)
+    // Poppt count Karten von otherStack und Pusht diese auf sich selbst.
     public static void Push<T>(this Stack<T> self, int count, Stack<T> otherStack)
     {
         for (int i = 0; i < count; i++)
@@ -44,9 +44,13 @@ public static class ExtensionMethods
         self.Push(otherStack.Count, otherStack);
     }
 
+
     //     d) Machen Sie die Anwendung flexibler, indem Sie eine Methode schreiben,
     //        die einen Stapel und eine positive Zahl (für die Anzahl Teil-Stapel) entgegennimmt.
     //        Ihre Methode soll eine Liste zurückgeben, die so viele Stapel enthält, wie Teil-Stapel angegeben wurden.
+
+    // Stack::PopStacks(int count)
+    // Gibt count Teil-Stacks zurück.
     public static List<Stack<T>> PopStacks<T>(this Stack<T> self, int count)
     {
         var lst = new List<Stack<T>>();
@@ -94,6 +98,7 @@ public class Card
         Value = value;
     }
 
+    // Statische Konstruktoren
     public static Card Kreuz(int value) => new Card(CardColor.Kreuz, value);
     public static Card Pik(int value) => new Card(CardColor.Pik, value);
     public static Card Herz(int value) => new Card(CardColor.Herz, value);
@@ -133,7 +138,7 @@ class Program
         var piks = new Stack<Card>();
         var hearts = new Stack<Card>();
 
-        foreach (var value in Enumerable.Range(7, 8))
+        foreach (var value in Enumerable.Range(7, 8))   // 7 bis 14 
         {
             piks.Push(Card.Pik(value));
             hearts.Push(Card.Herz(value));
