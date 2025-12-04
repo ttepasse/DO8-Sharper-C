@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 2 - Hotel", "20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 3 - Baumarkt", "2025-12-3 - 3 - Baumarkt\2025-12-3 - 3 - Baumarkt.csproj", "{52D84A6C-E285-43E0-9A17-7AC2C7B57AE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 4 - Kartenspiel", "2025-12-3 - 4 - Kartenspiel\2025-12-3 - 4 - Kartenspiel.csproj", "{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{52D84A6C-E285-43E0-9A17-7AC2C7B57AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D84A6C-E285-43E0-9A17-7AC2C7B57AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D84A6C-E285-43E0-9A17-7AC2C7B57AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
