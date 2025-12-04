@@ -38,7 +38,7 @@ public static class ExtensionMethods
     }
 
     // Stack::Push(otherStack)
-    // Pusht alle gepoppten Karten von otherStack auch sich selbst.
+    // Pusht alle gepoppten Karten von otherStack auf sich selbst.
     public static void Push<T>(this Stack<T> self, Stack<T> otherStack)
     {
         self.Push(otherStack.Count, otherStack);
