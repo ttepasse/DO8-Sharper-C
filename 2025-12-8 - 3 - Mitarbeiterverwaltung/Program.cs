@@ -29,11 +29,6 @@ public class Mitarbeiter(string name, int alter, double gehalt)
 public delegate bool MitarbeiterFilter(Mitarbeiter ma);
 
 
-// 4. MitarbeiterComparison (statt Comparison<Mitarbeiter>)
-
-public delegate bool MitarbeiterComparison(Mitarbeiter a, Mitarbeiter b);
-
-
 // 3. Filtere die Mitarbeiter:
 //     ◦ Erstelle eine Methode FilternMitarbeiter, die eine Liste von Mitarbeiter-Objekten und einen 
 // MitarbeiterFilter-Delegate als Parameter erhält. Diese Methode soll alle Mitarbeiter zurückgeben, die 
