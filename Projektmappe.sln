@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-4 - 1 - Quest Dicti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 1 - Delegates", "2025-12-8 - 1 - Delegates\2025-12-8 - 1 - Delegates.csproj", "{89A802E5-37BE-4752-BF03-9280FDACFCB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 2 - ArrayFilter", "2025-12-8 - 2 - ArrayFilter\2025-12-8 - 2 - ArrayFilter.csproj", "{7B7B9D0A-0457-452C-8856-6FFEC410C18D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{89A802E5-37BE-4752-BF03-9280FDACFCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A802E5-37BE-4752-BF03-9280FDACFCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A802E5-37BE-4752-BF03-9280FDACFCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7B9D0A-0457-452C-8856-6FFEC410C18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7B9D0A-0457-452C-8856-6FFEC410C18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7B9D0A-0457-452C-8856-6FFEC410C18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7B9D0A-0457-452C-8856-6FFEC410C18D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
