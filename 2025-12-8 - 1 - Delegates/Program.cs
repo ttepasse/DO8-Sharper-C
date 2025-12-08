@@ -15,17 +15,18 @@
 namespace _2025_12_8___1___Delegates;
 
 
-delegate int Operation(int a, int b);
+delegate int Operation(int a, int b);       // Func<int, int, int>
 
-delegate void DisplayResult(int a);
+delegate void DisplayResult(int a);         // Action<int, int> ??
+                                            // Actions sind immer void
 
 
 public class Calculator
 {
-    public static int Add(int a, int b) { return a + b; }
-    public static int Subtract(int a, int b) { return a - b; }
-    public static int Multiply(int a, int b) { return a * b; }
-    public static int Divide(int a, int b) { return a / b; }
+    public static int Add      (int a, int b) { return a + b; }
+    public static int Subtract (int a, int b) { return a - b; }
+    public static int Multiply (int a, int b) { return a * b; }
+    public static int Divide   (int a, int b) { return a / b; }
 }
 
 
