@@ -16,7 +16,7 @@ public class Mitarbeiter(string name, int alter, double gehalt)
 
     public override string ToString()
     {
-        return $"{Name} ({Alter} Jahre, {Gehalt} Gehalt)";
+        return $"  {Name} ({Alter} Jahre, {Gehalt} Gehalt)";
     }
 }
 
@@ -49,10 +49,9 @@ class Program
     }
 
 
-    public static List<Mitarbeiter> SortiereMitarbeiter(List<Mitarbeiter> ma, MitarbeiterComparison cmp)
+    public static List<Mitarbeiter> SortiereMitarbeiter(List<Mitarbeiter> ma, Comparison<Mitarbeiter> cmp)
     {
-        // TODO
-        // ma.Sort(cmp);
+        ma.Sort(cmp);
         return ma;
     }
 
@@ -70,12 +69,22 @@ class Program
 
         Console.Clear();
 
-        Console.WriteLine("Mitarbeiter über Dreissig:");
+        Console.WriteLine("\nMitarbeiter über Dreissig:");
         var ueberDreissig = FilternMitarbeiter(belegschaft, ma => ma.Alter > 30);
         ueberDreissig.ForEach(Console.WriteLine);
 
-        Console.WriteLine("Mitarbeiter, die über 100.000 erhalten:");
+        Console.WriteLine("\nMitarbeiter, die über 100.000 erhalten:");
         var ueberHunderttausend = FilternMitarbeiter(belegschaft, ma => ma.Gehalt >= 100_000);
         ueberHunderttausend.ForEach(Console.WriteLine);
+
+        Console.WriteLine("\nMitarbeiter sortiert nach Alter:");
+        var mitarbeiterNachAlter = SortiereMitarbeiter(belegschaft, (m1, m2) => m1.Alter.CompareTo(m2.Alter));
+        mitarbeiterNachAlter.ForEach(Console.WriteLine);
+
+        Console.WriteLine("\nMitarbeiter, sortiert nach Gehalt:");
+        SortiereMitarbeiter(belegschaft, (m1, m2) => m1.Gehalt.CompareTo(m2.Gehalt))
+            .ForEach(Console.WriteLine);
+
+        Console.WriteLine();
     }
 }
