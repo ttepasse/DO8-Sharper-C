@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 2 - ArrayFilter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 3 - Mitarbeiterverwaltung", "2025-12-8 - 3 - Mitarbeiterverwaltung\2025-12-8 - 3 - Mitarbeiterverwaltung.csproj", "{05426161-1839-46C5-8395-E4913A953D79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-9 - 1 - LINQ", "2025-12-9 - 1 - LINQ\2025-12-9 - 1 - LINQ.csproj", "{055F823F-3227-4BCE-AFE8-3F2E2397268D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{05426161-1839-46C5-8395-E4913A953D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05426161-1839-46C5-8395-E4913A953D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05426161-1839-46C5-8395-E4913A953D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055F823F-3227-4BCE-AFE8-3F2E2397268D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055F823F-3227-4BCE-AFE8-3F2E2397268D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055F823F-3227-4BCE-AFE8-3F2E2397268D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055F823F-3227-4BCE-AFE8-3F2E2397268D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
