@@ -26,7 +26,9 @@ public class Mitarbeiter(string name, int alter, double gehalt)
 // die einen Mitarbeiter entgegennimmt und einen bool zurückgibt
 // (z.B. für Filteroperationen wie "ist der Mitarbeiter älter als 30?").
 
-public delegate bool MitarbeiterFilter(Mitarbeiter ma);
+// public delegate bool MitarbeiterFilter(Mitarbeiter ma);
+
+// Ersetzt durch Default: Predicate<Mitarbeiter>
 
 
 // 3. Filtere die Mitarbeiter:
@@ -38,7 +40,7 @@ public delegate bool MitarbeiterFilter(Mitarbeiter ma);
 
 class Program
 {
-    public static List<Mitarbeiter> FilternMitarbeiter(List<Mitarbeiter> ma, MitarbeiterFilter filter)
+    public static List<Mitarbeiter> FilternMitarbeiter(List<Mitarbeiter> ma, Predicate<Mitarbeiter> filter)
     {
         return ma.Where(m => filter(m)).ToList();
     }
