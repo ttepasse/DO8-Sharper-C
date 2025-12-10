@@ -19,31 +19,31 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 7 - Capitalize
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-11-28 - 8 - CapitalizeAfterChars", "2025-11-28 - 8 - CapitalizeAfterChars\2025-11-28 - 8 - CapitalizeAfterChars.csproj", "{A692C2DE-B83B-4A68-85BF-CF91155376A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 1 - IntegerDivision", "2025-12-2 - 1 - IntegerDivision\2025-12-2 - 1 - IntegerDivision.csproj", "{17B684C2-AF93-4E23-9411-C714663529C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-02 - 1 - IntegerDivision", "2025-12-02 - 1 - IntegerDivision\2025-12-02 - 1 - IntegerDivision.csproj", "{17B684C2-AF93-4E23-9411-C714663529C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 2 - ISBN", "2025-12-2 - 2 - ISBN\2025-12-2 - 2 - ISBN.csproj", "{80AA6600-1985-4EFA-BF9B-83E8B633AE65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-02 - 2 - ISBN", "2025-12-02 - 2 - ISBN\2025-12-02 - 2 - ISBN.csproj", "{80AA6600-1985-4EFA-BF9B-83E8B633AE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-2 - 3 - Sichere Eingabe", "2025-12-2 - 3 - Sichere Eingabe\2025-12-2 - 3 - Sichere Eingabe.csproj", "{373E4D38-58ED-4E55-8FDC-F4AC0A70A71E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-02 - 3 - Sichere Eingabe", "2025-12-02 - 3 - Sichere Eingabe\2025-12-02 - 3 - Sichere Eingabe.csproj", "{373E4D38-58ED-4E55-8FDC-F4AC0A70A71E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 1 - Job-Liste", "2025-12-3 - 1 - Job-Liste\2025-12-3 - 1 - Job-Liste.csproj", "{526D2725-BDCE-4034-86C5-590F71A03143}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-03 - 1 - Job-Liste", "2025-12-03 - 1 - Job-Liste\2025-12-03 - 1 - Job-Liste.csproj", "{526D2725-BDCE-4034-86C5-590F71A03143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 2 - Hotel", "2025-12-3 - 2 - Hotel\2025-12-3 - 2 - Hotel.csproj", "{2A992F8F-115E-4B73-BD40-612B9CDF7DB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-03 - 2 - Hotel", "2025-12-3 - 2 - Hotel\2025-12-3 - 2 - Hotel.csproj", "{2A992F8F-115E-4B73-BD40-612B9CDF7DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 3 - Baumarkt", "2025-12-3 - 3 - Baumarkt\2025-12-3 - 3 - Baumarkt.csproj", "{52D84A6C-E285-43E0-9A17-7AC2C7B57AE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 3 - Baumarkt", "2025-12-03 - 3 - Baumarkt\2025-12-3 - 3 - Baumarkt.csproj", "{52D84A6C-E285-43E0-9A17-7AC2C7B57AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 4 - Kartenspiel", "2025-12-3 - 4 - Kartenspiel\2025-12-3 - 4 - Kartenspiel.csproj", "{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-3 - 4 - Kartenspiel", "2025-12-3 - 4 - Kartenspiel\2025-12-03 - 4 - Kartenspiel.csproj", "{C4ED45C9-7334-4F7D-94A9-161B527A0A6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-4 - 1 - Quest Dictionary", "2025-12-4 - 1 - Quest Dictionary\2025-12-4 - 1 - Quest Dictionary.csproj", "{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-04 - 1 - Quest Dictionary", "2025-12-04 - 1 - Quest Dictionary\2025-12-04 - 1 - Quest Dictionary.csproj", "{E24C6E8B-74D8-4E03-AF95-3899DF5586CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 1 - Delegates", "2025-12-8 - 1 - Delegates\2025-12-8 - 1 - Delegates.csproj", "{89A802E5-37BE-4752-BF03-9280FDACFCB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-08 - 1 - Delegates", "2025-12-08 - 1 - Delegates\2025-12-08 - 1 - Delegates.csproj", "{89A802E5-37BE-4752-BF03-9280FDACFCB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 2 - ArrayFilter", "2025-12-8 - 2 - ArrayFilter\2025-12-8 - 2 - ArrayFilter.csproj", "{7B7B9D0A-0457-452C-8856-6FFEC410C18D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-08 - 2 - ArrayFilter", "2025-12-08 - 2 - ArrayFilter\2025-12-08 - 2 - ArrayFilter.csproj", "{7B7B9D0A-0457-452C-8856-6FFEC410C18D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-8 - 3 - Mitarbeiterverwaltung", "2025-12-8 - 3 - Mitarbeiterverwaltung\2025-12-8 - 3 - Mitarbeiterverwaltung.csproj", "{05426161-1839-46C5-8395-E4913A953D79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-08 - 3 - Mitarbeiterverwaltung", "2025-12-08 - 3 - Mitarbeiterverwaltung\2025-12-08 - 3 - Mitarbeiterverwaltung.csproj", "{05426161-1839-46C5-8395-E4913A953D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-9 - 1 - LINQ", "2025-12-9 - 1 - LINQ\2025-12-9 - 1 - LINQ.csproj", "{055F823F-3227-4BCE-AFE8-3F2E2397268D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-09 - 1 - LINQ", "2025-12-09 - 1 - LINQ\2025-12-09 - 1 - LINQ.csproj", "{055F823F-3227-4BCE-AFE8-3F2E2397268D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-9 - 2 - LINQ Partionierung", "2025-12-9 - 2 - LINQ Partionierung\2025-12-9 - 2 - LINQ Partionierung.csproj", "{D2522890-0DDF-4945-A0D3-9DB496FC2CBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-09 - 2 - LINQ Partionierung", "2025-12-09 - 2 - LINQ Partionierung\2025-12-09 - 2 - LINQ Partionierung.csproj", "{D2522890-0DDF-4945-A0D3-9DB496FC2CBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-10 - 1 - LINQ Sortierung", "2025-12-10 - 1 - LINQ Sortierung\2025-12-10 - 1 - LINQ Sortierung.csproj", "{8A82F5A6-423E-43A3-A6B5-E4AE227CFBF2}"
 EndProject
