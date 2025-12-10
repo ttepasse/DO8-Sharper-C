@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 3 - Sichere Eingabe/2025-12-2 - 3 - Sichere Eingabe.csproj",
-      "projectName": "2025-12-2 - 3 - Sichere Eingabe",
-      "projectPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 3 - Sichere Eingabe/2025-12-2 - 3 - Sichere Eingabe.csproj",
+      "projectUniqueName": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-02 - 3 - Sichere Eingabe/2025-12-02 - 3 - Sichere Eingabe.csproj",
+      "projectName": "2025-12-02 - 3 - Sichere Eingabe",
+      "projectPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-02 - 3 - Sichere Eingabe/2025-12-02 - 3 - Sichere Eingabe.csproj",
       "packagesPath": "/home/cl902/.nuget/packages/",
-      "outputPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-2 - 3 - Sichere Eingabe/obj/",
+      "outputPath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-12-02 - 3 - Sichere Eingabe/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cl902/.nuget/NuGet/NuGet.Config"
