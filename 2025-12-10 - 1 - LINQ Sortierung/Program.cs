@@ -60,5 +60,43 @@ class Program
               select n;
         res.Print();
         numbers.Where(n => 5 <= n && n <= 11).OrderDescending().Print();
+
+
+        // ------------------------------
+        Console.WriteLine("\n---------------------------\n");
+
+        // 2. Gegeben sei das folgende Array:
+
+        string[] numberNames = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen" };
+
+        // Erstellen Sie jeweils eine Lösung in Extension-Method-Syntax und eine in Query-Expression-Syntax für die folgenden Aufgaben:
+
+        // a. Geben Sie das Array aufsteigend sortiert nach der Länge der Worte aus.
+        Console.WriteLine("a. Geben Sie das Array aufsteigend sortiert nach der Länge der Worte aus.");
+        var result = from n in numberNames
+                     orderby n.Length
+                     select n;
+        result.Print();
+        numberNames.OrderBy(n => n.Length).Print();
+
+        // b. Geben Sie das Array aufsteigend sortiert nach der Länge der Worte aus, bei gleicher Länge soll alphabetisch absteigend sortiert werden.
+        Console.WriteLine("\nb. Geben Sie das Array aufsteigend sortiert nach der Länge der Worte aus, bei gleicher Länge soll alphabetisch absteigend sortiert werden.");
+        result = from n in numberNames
+                 orderby n.Length, n descending
+                 select n;
+        result.Print();
+        numberNames.OrderBy(n => n.Length).ThenByDescending(n => n).Print();
+
+        // c. Drehen Sie die Reihenfolge der Elemente im Array um.
+        Console.WriteLine("\nc. Drehen Sie die Reihenfolge der Elemente im Array um.");
+        numberNames.Reverse().Print();
+
+        // d. Sortieren Sie die Werte im Array aufsteigend nach dem ersten Buchstaben und bei gleichem ersten Buchstaben absteigend nach dem letzten Buchstaben.
+        Console.WriteLine("\nd. Sortieren Sie die Werte im Array aufsteigend nach dem ersten Buchstaben und bei gleichem ersten Buchstaben absteigend nach dem letzten Buchstaben.");
+        result = from n in numberNames
+                 orderby n.First(), n.Last() descending
+                 select n;
+        result.Print();
+        numberNames.OrderBy(n => n.First()).ThenBy(n => n.Last()).Print();
     }
 }
