@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-10 - 3 - LINQ Waren
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-11 - 1 - Events Warpkern", "2025-12-11 - 1 - Events Warpkern\2025-12-11 - 1 - Events Warpkern.csproj", "{F93F5414-E339-4E9B-AC50-E846E5F58965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-12 - 1 - Wasserloch", "2025-12-12 - 1 - Wasserloch\2025-12-12 - 1 - Wasserloch.csproj", "{98095325-8F9D-4227-9EFE-8109E4B3650B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +164,9 @@ Global
 		{F93F5414-E339-4E9B-AC50-E846E5F58965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93F5414-E339-4E9B-AC50-E846E5F58965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93F5414-E339-4E9B-AC50-E846E5F58965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
