@@ -65,7 +65,7 @@ public class WarpKern
 
             int newTemp = random.Next(_min, _max);
 
-            if (newTemp > 500 && TemperatureToHigh != null)
+            if (newTemp >= 500 && TemperatureToHigh != null)
             {
                 TemperatureToHigh.Invoke(this, new WarpWarningEventArgs(WarpkernTemperatur, newTemp));
             }
@@ -110,6 +110,8 @@ public class WarpKernKonsole
         }
         Console.WriteLine($"#                                        #");
         Console.WriteLine($"##########################################");
+        Console.WriteLine();
+        Console.WriteLine("(CTRL-C zum beenden)");
     }
 }
 
