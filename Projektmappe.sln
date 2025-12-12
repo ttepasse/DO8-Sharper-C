@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-11 - 1 - Events War
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-12 - 1 - Wasserloch", "2025-12-12 - 1 - Wasserloch\2025-12-12 - 1 - Wasserloch.csproj", "{98095325-8F9D-4227-9EFE-8109E4B3650B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-12 - 2 - Wasserstand", "2025-12-12 - 2 - Wasserstand\2025-12-12 - 2 - Wasserstand.csproj", "{56B5F6E8-3911-4235-9AD6-10935B6492D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,5 +170,9 @@ Global
 		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98095325-8F9D-4227-9EFE-8109E4B3650B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B5F6E8-3911-4235-9AD6-10935B6492D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B5F6E8-3911-4235-9AD6-10935B6492D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B5F6E8-3911-4235-9AD6-10935B6492D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B5F6E8-3911-4235-9AD6-10935B6492D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
