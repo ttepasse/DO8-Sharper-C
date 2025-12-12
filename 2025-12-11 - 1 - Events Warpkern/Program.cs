@@ -92,7 +92,7 @@ public class WarpKernKonsole
     }
 
     public void OnTemperatureChange(object? sender, WarpTemperatureChangeEventArgs ea) => Render(ea, false);
-    public void OnTemperatureTooHigh(object? sender, WarpWarningEventArgs ea) => Render(ea, true);
+    public void OnTemperatureTooHigh(object? sender, WarpWarningEventArgs ea)          => Render(ea, true);
 
     public void Render(WarpEventArgs ea, bool warning)
     {
