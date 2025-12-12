@@ -100,7 +100,7 @@ public class WarpKernKonsole
         Console.Clear();
         Console.WriteLine($"### Warpkern-Konsole #####################");
         Console.WriteLine($"#                                        #");
-        Console.WriteLine($"#  Uhrzeit:      {now.Hour}:{now.Minute}                   #");
+        Console.WriteLine($"#  Uhrzeit:      {now.Hour}:{now.Minute.ToString().PadLeft(2, '0')}                   #");
         Console.WriteLine($"#  Temperatur:   {ea.NewTemperature} °K                  #");
         Console.WriteLine($"#                                        #");
         if (warning)
