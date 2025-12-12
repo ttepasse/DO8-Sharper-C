@@ -100,11 +100,12 @@ public class WarpKernKonsole
         Console.Clear();
         Console.WriteLine($"### Warpkern-Konsole #####################");
         Console.WriteLine($"#                                        #");
-        Console.WriteLine($"#  Uhrzeit:    {now.Hour}:{now.Minute}                    #");
-        Console.WriteLine($"#  Temperatur: {ea.NewTemperature} °K                    #");
+        Console.WriteLine($"#  Uhrzeit:      {now.Hour}:{now.Minute}                   #");
+        Console.WriteLine($"#  Temperatur:   {ea.NewTemperature} °K                  #");
+        Console.WriteLine($"#                                        #");
         if (warning)
         {
-            Console.WriteLine($"#  RED ALERT: Kernemperatur zu hoch!     #");
+            Console.WriteLine($"#  RED ALERT: Kerntemperatur zu hoch!    #");
         }
         else
         {
@@ -113,7 +114,7 @@ public class WarpKernKonsole
         Console.WriteLine($"#                                        #");
         Console.WriteLine($"##########################################");
         Console.WriteLine();
-        Console.WriteLine("(CTRL-C zum beenden)");
+        Console.WriteLine("(Ctrl-C zum beenden)");
     }
 }
 
