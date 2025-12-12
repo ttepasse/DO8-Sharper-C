@@ -2,12 +2,6 @@
 // Flüsse führen im Verlauf der Zeit unterschiedlich viel Wasser. Ein zu hoher oder zu niedriger Wasserstand kann für Schiffe, Anwohner und andere Objekte eine Gefahr darstellen. Deshalb muss der Wasserstand eines Flusses überwacht werden, damit bei Gefahr reagiert werden kann.
 
 
-
-
-using System.Dynamic;
-using System.Runtime.CompilerServices;
-using Microsoft.VisualBasic;
-
 namespace _2025_12_12___3___Wasserstand_2;
 
 
