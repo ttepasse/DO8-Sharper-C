@@ -27,7 +27,7 @@ public class RaubkatzeEventArgs : EventArgs
 
 public class Wächtertier
 {
-    public event EventHandler<RaubkatzeEventArgs> RaubkatzeKommt;
+    public event EventHandler<RaubkatzeEventArgs>? RaubkatzeKommt;
 
     public void OnRaubkatzeKommt()
     {
