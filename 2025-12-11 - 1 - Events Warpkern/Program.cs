@@ -96,9 +96,11 @@ public class WarpKernKonsole
 
     public void Render(WarpEventArgs ea, bool warning)
     {
+        var now = DateTime.Now;
         Console.Clear();
         Console.WriteLine($"### Warpkern-Konsole #####################");
         Console.WriteLine($"#                                        #");
+        Console.WriteLine($"#  Uhrzeit:    {now.Hour}:{now.Minute}                    #");
         Console.WriteLine($"#  Temperatur: {ea.NewTemperature} °K                    #");
         if (warning)
         {
