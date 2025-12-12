@@ -90,7 +90,7 @@ public class Schiff
 
     public override string ToString()
     {
-        string stopInfo = _istGestoppt ? $"Gestoppt, da {_grundFürStopp})" :"Segelt"; 
+        string stopInfo = _istGestoppt ? $"Gestoppt, da {_grundFürStopp})" : "Segelt";
         return $"  {Name.PadRight(10)} ({stopInfo})";
     }
 }
@@ -129,6 +129,6 @@ class Program
             Console.WriteLine(donau);
             Console.WriteLine(xaver);
             Console.WriteLine(franz);
-            }
+        }
     }
 }
