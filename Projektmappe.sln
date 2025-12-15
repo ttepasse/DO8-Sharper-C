@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-12 - 2 - Wasserstan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-12 - 3 - Wasserstand 2", "2025-12-12 - 3 - Wasserstand 2\2025-12-12 - 3 - Wasserstand 2.csproj", "{662A66CD-ED20-4AEE-B75E-C9A00930B435}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-15 - 1 - Datenstreams", "2025-12-15 - 1 - Datenstreams\2025-12-15 - 1 - Datenstreams.csproj", "{6BBD8887-A688-4662-BA62-707A176BDA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,5 +182,9 @@ Global
 		{662A66CD-ED20-4AEE-B75E-C9A00930B435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662A66CD-ED20-4AEE-B75E-C9A00930B435}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662A66CD-ED20-4AEE-B75E-C9A00930B435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBD8887-A688-4662-BA62-707A176BDA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBD8887-A688-4662-BA62-707A176BDA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBD8887-A688-4662-BA62-707A176BDA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBD8887-A688-4662-BA62-707A176BDA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
