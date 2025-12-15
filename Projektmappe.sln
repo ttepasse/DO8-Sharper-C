@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-15 - 1 - Datenstrea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-15 - 2 - Datei-Vergleich", "2025-12-15 - 2 - Datei-Vergleich\2025-12-15 - 2 - Datei-Vergleich.csproj", "{643717EF-31FE-4286-8ED4-EAD6B1EC7A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-12-15 - 3 - Hotel", "2025-12-15 - 3 - Hotel\2025-12-15 - 3 - Hotel.csproj", "{D3D154D4-69FE-4620-A85A-84EF2C1BD054}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,5 +194,9 @@ Global
 		{643717EF-31FE-4286-8ED4-EAD6B1EC7A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643717EF-31FE-4286-8ED4-EAD6B1EC7A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643717EF-31FE-4286-8ED4-EAD6B1EC7A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D154D4-69FE-4620-A85A-84EF2C1BD054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D154D4-69FE-4620-A85A-84EF2C1BD054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D154D4-69FE-4620-A85A-84EF2C1BD054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D154D4-69FE-4620-A85A-84EF2C1BD054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
