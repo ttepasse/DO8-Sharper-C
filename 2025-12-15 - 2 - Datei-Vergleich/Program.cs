@@ -78,6 +78,13 @@ class Program
                 lineA = streamA.ReadLine();
                 lineB = streamB.ReadLine();
 
+                // Dateien sind ungleicher Länger
+                if (lineA == null ^ lineB == null)
+                {
+                    Console.WriteLine("Dateien sind ungleicher Länge");
+                    break;
+                }
+
                 // Ende der Dateien erreicht
                 // Note: Zählt nicht, wenn beide Dateien die ungleiche Anzahl von Zeilen hat.
                 if (lineA == null || lineB == null)
