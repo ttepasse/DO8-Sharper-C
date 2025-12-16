@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kY/TyI4ZiUQ=",
+  "dgSpecHash": "T8qI5CetVTw=",
   "success": true,
   "projectFilePath": "/home/cl902/Schreibtisch/Lokalstick/8 - Gronemann, C#/Code/2025-11-28 - 3 - IsPalindrom/2025-11-28 - 3 - IsPalindrom.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/cl902/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.11/microsoft.netcore.app.host.linux-x64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
