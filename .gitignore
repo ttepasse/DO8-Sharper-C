@@ -8,3 +8,14 @@
 *.nuget.g.targets
 project.nuget.cache
 *.nuget.dgspec.json
+2025-12-15 - 4 - US-Wahl/2025-12-15 - 4 - US-Wahl.csproj
+2025-12-15 - 4 - US-Wahl/nachnamen.txt
+2025-12-15 - 4 - US-Wahl/Program.cs
+2025-12-15 - 4 - US-Wahl/vornamen_m.txt
+2025-12-15 - 4 - US-Wahl/vornamen_w.txt
+2025-12-15 - 4 - US-Wahl/obj/project.assets.json
+.gitignore
+.gitignore
+2026-01-06 - Traumschiff/obj/project.assets.json
+2026-01-06 - Traumschiff/2026-01-06 - Traumschiff.csproj
+2026-01-06 - Traumschiff/Program.cs
