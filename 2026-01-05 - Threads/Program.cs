@@ -9,8 +9,8 @@ public class CancellableThread
 
     public CancellableThread(Action<CancellationToken> action)
     {
-        cts = new CancellationTokenSource();
-        thread = new Thread(() => action(cts.Token));
+        this.cts = new CancellationTokenSource();
+        this.thread = new Thread(() => action(cts.Token));
     }
 
     public void Start() => this.thread.Start();
@@ -70,7 +70,7 @@ class Program
         // b) Legen Sie im Hauptprogramm eine Liste von Threads an und fügen Sie dieser Liste 10 Threads hinzu, die alle Ihre Methode mit der Schleife starten. Starten Sie alle Threads in der Liste.
 
         var threads = Enumerable.Range(0, 10)
-                      .Select((int i) => new CancellableThread(PrintThreadInfo))
+                      .Select((i) => new CancellableThread(PrintThreadInfo))
                       .ToList();
 
         threads.ForEach((t) => t.Start());
