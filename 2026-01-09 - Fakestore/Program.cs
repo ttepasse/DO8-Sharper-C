@@ -153,7 +153,7 @@ public class Program
 
     public static void SortByRating()
     {
-        new TUIList(productList.OrderBy((p) => p.rating.rate)).Show();
+        new TUIList(productList.OrderBy((p) => p.rating!.rate)).Show();
     }
 
 
